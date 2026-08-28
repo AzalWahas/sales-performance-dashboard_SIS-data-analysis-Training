@@ -1,20 +1,21 @@
 # 📊 Retail Sales Analysis & Interactive Dashboard (2024)
 
 An interactive retail performance dashboard designed to track high-level sales metrics, analyze regional customer distributions, evaluate category trends, and monitor item-level revenue streams for 2024.
-
 ---
+
 ## 🚀 Project Overview
 
 This repository documents the full lifecycle of building a retail analytics solution—from raw data extraction to dynamic data visualization. The dashboard tracks key business KPIs including revenue growth, unit sales volume, top-performing SKUs, and regional performance across five major product categories and key Egyptian metropolitan cities.
-
+<img width="1386" height="603" alt="image" src="https://github.com/user-attachments/assets/6d780c41-4777-41dc-8e79-f28508cffe76" />
+---
 
 ## 📌 Executive Summary KPI Cards
 
 * **Total Sales:** $6,977,094.80
 * **Units Sold:** 90,294
 * **Top Selling Product:** Doll ($522,606)
-
 ---
+
 ## 🗃️ Dataset Overview
 
 The dataset covers retail transactions for 2024 and contains the following core fields:
@@ -26,7 +27,15 @@ The dataset covers retail transactions for 2024 and contains the following core 
 * **`Product`:** Specific item designations (*e.g., Doll, Puzzle, Shirt, Laptop, Novel*).
 * **`Sales_Amount`:** Total monetary value generated per line item ($ USD).
 * **`Units_Sold`:** Quantity of items purchased per transaction.
+---
 
+## 💡 Key Business Insights
+
+1. **Overall Performance:** Generated **$6,977,094.80** in total sales with **90,294 units sold**. The **Doll Product** was the top-selling item, bringing in **$522,606**.
+2. **Category Balance:** Revenue is evenly split across all categories: **Toys** leads at **20.46%**, followed by **Furniture** (20.20%), **Electronics** (20.07%), **Books** (19.73%), and **Clothing** (19.55%).
+3. **Monthly Trends:** Sales trajectory peaks in **April** (exceeding $7.3M), followed by a steady run through mid-year and a dip around February ($6.8M range).
+4. **Geographic Distribution:** Active customer count remains evenly balanced (56 to 62 customers per city), with **Aswan** and **Mansoura** demonstrating top sales volume relative to customer numbers.
+5. **Product Performers:** Top category drivers include **Dolls, Puzzles, and Shirts**, while sub-items like **Sofas** and **Headphones** generated lower overall revenue.
 ---
 
 ## 📊 Dashboard Key Components & Visuals
@@ -64,15 +73,6 @@ The dataset covers retail transactions for 2024 and contains the following core 
   * **Books:** Textbook, Novel, Notebook, Magazine, Comics
 ---
 
-## 💡 Key Business Insights
-
-1. **Overall Performance:** Generated **$6,977,094.80** in total sales with **90,294 units sold**. The **Doll Product** was the top-selling item, bringing in **$522,606**.
-2. **Category Balance:** Revenue is evenly split across all categories: **Toys** leads at **20.46%**, followed by **Furniture** (20.20%), **Electronics** (20.07%), **Books** (19.73%), and **Clothing** (19.55%).
-3. **Monthly Trends:** Sales trajectory peaks in **April** (exceeding $7.3M), followed by a steady run through mid-year and a dip around February ($6.8M range).
-4. **Geographic Distribution:** Active customer count remains evenly balanced (56 to 62 customers per city), with **Aswan** and **Mansoura** demonstrating top sales volume relative to customer numbers.
-5. **Product Performers:** Top category drivers include **Dolls, Puzzles, and Shirts**, while sub-items like **Sofas** and **Headphones** generated lower overall revenue.
----
-
 ## 🛠️ Project Stages & Workflow
 <img width="790" height="100" alt="image" src="https://github.com/user-attachments/assets/5cf9b537-a053-447e-a317-125486d1b3f6" />
 
@@ -102,13 +102,6 @@ The dataset covers retail transactions for 2024 and contains the following core 
   2. **Donut Chart:** Percentage share by Product Category.
   3. **Trend Line Chart:** Monthly Sales Trajectory for 2024.
   4. **Categorized Bar Chart:** Granular revenue breakdown by item/product.
-
----
-
-## 🖼️ Dashboard Preview
-
-<img width="1386" height="603" alt="image" src="https://github.com/user-attachments/assets/6d780c41-4777-41dc-8e79-f28508cffe76" />
-
 ---
 
 ## 🛠️ Tools Used
@@ -117,4 +110,3 @@ The dataset covers retail transactions for 2024 and contains the following core 
 * **Pivot Tables & Calculated Measures:** Aggregation engine for KPI calculations and regional metrics.
 * **Data Visualization:** Dual-axis charts, donut chart breakdown, time-series line trends, and grouped product bar charts.
 
----
